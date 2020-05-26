@@ -5,7 +5,7 @@ class VESCDataValues:
     def __init__(self, payload, mask):
         self.temperatureFet_C = None
         self.temperatureMotor_C = None
-        self.asverageMotorCurrent = None
+        self.averageMotorCurrent = None
         self.averageInputCurrent = None
         self.averageMotorID = None
         self.averageMotorIQ = None
